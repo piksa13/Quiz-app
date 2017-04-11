@@ -1,0 +1,41 @@
+<resources>
+    <!-- Questions & Answers -->
+    <string name="app_name">Quiz</string>
+    <string name="header">Strange British Laws</string>
+
+    <string name="question1">1. What is illegal to handle in suspicious circumstances under the Salmon Act of 1986?</string>
+    <string name="hint">type your answer here</string>
+
+    <string name="question2">2. Are all swans in England the property of the Queen? *</string>
+    <string name="checkbox1_q2">Yes, all swans</string>
+    <string name="checkbox2_q2">Only white swans</string>
+    <string name="checkbox3_q2">Not all swans</string>
+    <string name="checkbox4_q3">Only first dibs on all wild, unmarked mute swans in open water</string>
+    <string name="star">    * This is a multiple choice question.</string>
+
+    <string name="question3">3. It is illegal to be drunk in the pub.</string>
+    <string name="no_q3">False</string>
+    <string name="yes_q3">True</string>
+
+    <string name="question4">4. It is illegal to jump the queue in the tube ticket hall.</string>
+    <string name="no_q4">False</string>
+    <string name="yes_q4">True</string>
+
+    <string name="question5">5. All beached whales and sturgeons found on the British coastline must be offered to? </string>
+    <string name="checkbox1_q5">Marine Rescue</string>
+    <string name="checkbox2_q5">The Queen</string>
+    <string name="checkbox3_q5">Marine Research Institute</string>
+
+    <string name="question6">6. You can not import potatoes into England and Wales if you have reasonable cause to suspect that they are Polish.</string>
+    <string name="no_q6">False</string>
+    <string name="yes_q6">True</string>
+
+    <string name="question7">7. Is it an offence to beat or shake any carpet, rug, or mat before 8am in London? </string>
+    <string name="checkbox1_q7">Yes</string>
+    <string name="checkbox2_q7">Not any more</string>
+    <string name="checkbox3_q7">No</string>
+
+    <!-- Submit & Reset -->
+    <string name="button_done">I am done!</string>
+    <string name="reset">Reset</string>
+</resources>
