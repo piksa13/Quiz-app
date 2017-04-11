@@ -6,7 +6,7 @@
     <dimen name="margin">10dp</dimen>
     <dimen name="padding">10dp</dimen>
     <dimen name="big_padding">20dp</dimen>
-    <dimen name="header">28sp</dimen>
+    <dimen name="header">24sp</dimen>
     <dimen name="question">14sp</dimen>
     <dimen name="buttons">20sp</dimen>
 </resources>

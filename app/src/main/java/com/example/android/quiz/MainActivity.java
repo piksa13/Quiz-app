@@ -170,11 +170,10 @@ public class MainActivity extends AppCompatActivity {
         }else{
             message = "\nTry your best next time!\n";
         }
-        // add if func to say well done or not so good this time
         Toast.makeText(this, "You got " + total + " out of 8!\n" + message, Toast.LENGTH_LONG).show();
     }
 
-    /** Restarting the app**/
+    /** Restarting the app to reset it**/
     public void reset(View view) {
         Intent i = getBaseContext().getPackageManager()
                 .getLaunchIntentForPackage(getBaseContext().getPackageName());
