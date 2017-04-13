@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -21,13 +22,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void submit(View view) {
 
+
         /**Getting data from Views**/
         EditText typeViewq1 = (EditText) findViewById(R.id.question1);
         String question1 = typeViewq1.getText().toString().trim();
 
+
         CheckBox checkBox1q2 = (CheckBox) findViewById(R.id.checkbox1_q2);
         boolean hasCheckbox1q2 = checkBox1q2.isChecked();
-
 
         CheckBox checkBox2q2 = (CheckBox) findViewById(R.id.checkbox2_q2);
         boolean hasCheckbox2q2 = checkBox2q2.isChecked();
@@ -171,6 +173,9 @@ public class MainActivity extends AppCompatActivity {
             message = "\nTry your best next time!\n";
         }
         Toast.makeText(this, "You got " + total + " out of 8!\n" + message, Toast.LENGTH_LONG).show();
+
+        Button submitButton = (Button) findViewById(R.id.submit_button);
+        submitButton.setVisibility(View.GONE);
     }
 
     /** Restarting the app to reset it**/
